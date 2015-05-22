@@ -1,0 +1,41 @@
+################################
+####  BELAYOUT: EVOLUTION3  ####
+################################
+mod {
+    web_layout {
+        BackendLayouts {
+            clean3 {
+                title = LLL:EXT:adico_evolution3/Resources/Private/Language/Backend.xlf:backend_layout.clean
+                config {
+                    backend_layout {
+                        colCount = 10
+                        rowCount = 2
+                        rows {
+                            1 {
+                                columns {
+                                    1 {
+                                        name = menu vertical
+                                        colspan = 2
+					rowspan = 2
+                                    }
+                                    2 {
+                                        name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.1
+                                        colPos = 0
+                                        colspan = 6
+                                    }
+                                    3 {
+                                        name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.2
+                                        colPos = 2
+                                        colspan = 2
+					rowspan = 2
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                icon = EXT:adico_evolution3/Resources/Public/Images/BackendLayouts/evo3_clean.gif
+            }
+        }
+    }
+}

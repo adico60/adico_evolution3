@@ -1,0 +1,4 @@
+########################
+#### BACKENDLAYOUTS ####
+########################
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:adico_evolution3/Configuration/PageTS/Mod/WebLayout/BackendLayouts" extensions="txt">
