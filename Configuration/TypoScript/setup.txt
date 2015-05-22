@@ -123,7 +123,7 @@ page.10.file.stdWrap.cObject {
 
   bootstrap_package__clean3 = TEXT
   bootstrap_package__clean3.value = {$page.fluidtemplate.templateRootPath}Clean.html
-  bootstrap_package__clean3.insertData = 1
+  bootstrap_package__clean6.insertData = 1
 
   default = TEXT
   default.value = {$page.fluidtemplate.templateRootPath}Interieur.html
