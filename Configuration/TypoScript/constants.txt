@@ -16,7 +16,7 @@ page {
     }
     fluidtemplate{
         templateRootPath = EXT:adico_evolution3/Resources/Private/Templates/Page/
-        layoutRootPath = EXT:adico_evolution3/Configuration/TypoScript/Bootstrap/constants/Resources/Private/Layouts/Page/
+        layoutRootPath = EXT:adico_evolution3/Resources/Private/Layouts/Page/
         partialRootPath = EXT:adico_evolution3/Resources/Private/Partials/Page/
     }
 }
