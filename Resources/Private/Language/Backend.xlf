@@ -20,6 +20,10 @@
 			<trans-unit id="backend_layout.clean">
 				<source>Page large  Evolution 3</source>
 			</trans-unit>
+			
+			<trans-unit id="backend_layout.fullpage">
+				<source>Fullpage Evolution 3</source>
+			</trans-unit>
 
 			<trans-unit id="backend_layout.column.gauche">
 				<source>Colonne de gauche Evolution 3</source>

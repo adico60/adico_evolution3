@@ -107,32 +107,55 @@ config {
 }
 
 
-page.10.file.stdWrap.cObject >
-page.10.file.stdWrap.cObject = CASE
-page.10.file.stdWrap.cObject {
-  key.data = levelfield:-1, backend_layout_next_level, slide
-  key.override.field = backend_layout
-
-  bootstrap_package__accueil3 = TEXT
-  bootstrap_package__accueil3.value = {$page.fluidtemplate.templateRootPath}Accueil.html
-  bootstrap_package__accueil3.insertData = 1
-
-  bootstrap_package__interieur3 = TEXT
-  bootstrap_package__interieur3.value = {$page.fluidtemplate.templateRootPath}Interieur.html
-  bootstrap_package__interieur3.insertData = 1
-
-  bootstrap_package__clean3 = TEXT
-  bootstrap_package__clean3.value = {$page.fluidtemplate.templateRootPath}Clean.html
-  bootstrap_package__clean3.insertData = 1
-
-  default = TEXT
-  default.value = {$page.fluidtemplate.templateRootPath}Interieur.html
-  default.insertData = 1
-}
-
-page.includeCSS.theme = EXT:adico_evolution3/Resources/Private/Less/Theme/theme.less
-
 page {
+    10 {
+        file {
+            stdWrap {
+                cObject = CASE
+                cObject {
+                    key.data = levelfield:-1, backend_layout_next_level, slide
+                    key.override.field = backend_layout
+
+                    pagets__accueil3 = TEXT
+                    pagets__accueil3.value = Accueil
+                    pagets__accueil3.insertData = 1
+
+                    pagets__interieur3 = TEXT
+                    pagets__interieur3.value = Interieur
+                    pagets__interieur3.insertData = 1
+
+                    pagets__clean3 = TEXT
+                    pagets__clean3.value = Clean
+                    pagets__clean3.insertData = 1
+					
+					pagets__fullpage3 = TEXT
+                    pagets__fullpage3.value = Fullpage
+                    pagets__fullpage3.insertData = 1
+
+                    default = TEXT
+                    default.value = Interieur
+                    default.insertData = 1
+                 }
+            }
+        }
+        templateRootPaths {
+            0 = EXT:adico_evolution3/Resources/Private/Templates/Page/
+            1 = {$page.fluidtemplate.templateRootPath}
+        }
+        partialRootPaths {
+            0 = EXT:adico_evolution3/Resources/Private/Partials/Page/
+            1 = {$page.fluidtemplate.partialRootPath}
+        }
+        layoutRootPaths {
+            0 = EXT:adico_evolution3/Resources/Private/Layouts/Page/
+            1 = {$page.fluidtemplate.layoutRootPath}
+        }
+    }
+
+    includeCSS {
+        theme = EXT:adico_evolution3/Resources/Private/Less/Theme/theme.less
+    }
+
     jsFooterInline {
         # Piwik Analytics
         10 = COA
