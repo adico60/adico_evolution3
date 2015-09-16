@@ -127,10 +127,13 @@ page {
                     pagets__clean3 = TEXT
                     pagets__clean3.value = Clean
                     pagets__clean3.insertData = 1
+<<<<<<< HEAD
 					
 					pagets__fullpage3 = TEXT
                     pagets__fullpage3.value = Fullpage
                     pagets__fullpage3.insertData = 1
+=======
+>>>>>>> 486d0f1fc708143a7fc107c99e17c0e4ede0decd
 
                     default = TEXT
                     default.value = Interieur

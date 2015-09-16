@@ -16,8 +16,13 @@ mod {
                                     1 {
                                         name = menu vertical
                                         colspan = 2
+<<<<<<< HEAD
 										colPos = 1
 					rowspan = 2
+=======
+                                        rowspan = 2
+                                        colPos = 1
+>>>>>>> 486d0f1fc708143a7fc107c99e17c0e4ede0decd
                                     }
                                     2 {
                                         name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.1
@@ -28,7 +33,7 @@ mod {
                                         name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.2
                                         colPos = 2
                                         colspan = 2
-					rowspan = 2
+                                        rowspan = 2
                                     }
                                 }
                             }
