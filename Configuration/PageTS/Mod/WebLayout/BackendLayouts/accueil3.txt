@@ -16,6 +16,7 @@ mod {
                                     1 {
                                         name = menu vertical
                                         colspan = 2
+										colPos = 1
 					rowspan = 2
                                     }
                                     2 {
