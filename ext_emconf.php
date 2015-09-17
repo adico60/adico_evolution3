@@ -11,10 +11,10 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array (
-	'title' => 'Adico theme Evolution - Menu Vertical Etendu',
-	'description' => 'Theme Evolution - Menu Vertical Etendu',
+	'title' => 'Adico theme Evolution3 - Menu Vertical Etendu',
+	'description' => 'Theme Evolution3 - Menu Vertical Etendu',
 	'category' => 'fe',
-	'version' => '0.0.1',
+	'version' => '0.0.4',
 	'state' => 'beta',
 	'uploadfolder' => true,
 	'createDirs' => '',
