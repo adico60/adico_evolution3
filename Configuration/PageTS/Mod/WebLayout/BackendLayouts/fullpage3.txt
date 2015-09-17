@@ -9,7 +9,7 @@ mod {
                 config {
                     backend_layout {
                         colCount = 10
-                        rowCount = 2
+						rowCount = 1
                         rows {
                             1 {
                                 columns {
@@ -17,7 +17,6 @@ mod {
                                         name = menu vertical
                                         colPos = 1
 										colspan = 2
-					rowspan = 2
                                     }
                                     2 {
                                         name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.1
