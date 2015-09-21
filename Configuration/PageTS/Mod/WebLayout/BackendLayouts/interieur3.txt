@@ -19,12 +19,12 @@ mod {
                                         colspan = 2
                                     }
                                     2 {
-                                        name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.0
+                                        name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.1
                                         colPos = 0
                                         colspan = 2
                                     }
                                     3 {
-                                        name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.1
+                                        name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.2
                                         colPos = 1
                                         colspan = 6
                                     }
