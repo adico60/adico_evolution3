@@ -14,21 +14,19 @@ mod {
                             1 {
                                 columns {
                                     1 {
-                                        name = menu vertical
+                                        name = Menu Vertical
+										colPos = 1
                                         colspan = 2
                                     }
                                     2 {
                                         name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.0
-                                        colPos = 1
+                                        colPos = 0
                                         colspan = 2
                                     }
                                     3 {
                                         name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.1
-                                        colPos = 0
-                                        colspan = 4
-                                    }
-                                    4 {
-                                        colspan = 2
+                                        colPos = 1
+                                        colspan = 6
                                     }
                                 }
                             }
