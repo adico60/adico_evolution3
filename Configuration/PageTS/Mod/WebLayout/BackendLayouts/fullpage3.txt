@@ -9,13 +9,14 @@ mod {
                 config {
                     backend_layout {
                         colCount = 10
-						rowCount = 1
+						rowCount = 2
                         rows {
                             1 {
                                 columns {
                                     1 {
-                                        name = menu vertical
+                                        name = Menu Vertical
                                         colPos = 1
+										rowspan = 2
 										colspan = 2
                                     }
                                     2 {
@@ -24,6 +25,25 @@ mod {
                                         colspan = 8
                                     }
                                     
+                                }
+                            }
+							2 {
+                                columns {
+                                    1 {
+                                        name = LLL:EXT:adico_evolution3/Resources/Private/Language/Backend.xlf:backend_layout.column.gauche
+                                        colPos = 40
+                                        colspan = 2
+                                    }
+                                    2 {
+                                        name = LLL:EXT:adico_evolution3/Resources/Private/Language/Backend.xlf:backend_layout.column.milieu
+                                        colPos = 41
+                                        colspan = 2
+                                    }
+                                    3 {
+                                        name = LLL:EXT:adico_evolution3/Resources/Private/Language/Backend.xlf:backend_layout.column.droite
+                                        colPos = 42
+                                        colspan = 2
+                                    }
                                 }
                             }
                         }
